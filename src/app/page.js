@@ -1,11 +1,8 @@
-function HomePage() {
-  const ctaStyles = { 
-    display: 'flex',
-    justifyContent: 'space-around' 
-  };
+import styles from "./page.module.css";
 
+const HomePage = () => {
   return (
-    <div style={ctaStyles}>
+    <div className={styles.cta}>
       <span>
         Sample Image 1
       </span>
