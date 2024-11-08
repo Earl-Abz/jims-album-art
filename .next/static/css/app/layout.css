@@ -24,11 +24,9 @@ font-weight: 100 900;
 }.__variable_c3aa02 {--font-geist-mono: 'geistMono', 'geistMono Fallback'
 }
 
-/*!*****************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[3]!./src/app/globals.css ***!
-  \*****************************************************************************************************************************************************************************************************************************************************************/
-$primaryColor: #d25ca1;
-
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[11].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[11].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[11].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[11].use[5]!./src/app/globals.scss ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 body {
   background-color: #fff;
   font-family: Arial, Helvetica, sans-serif;
@@ -43,12 +41,12 @@ a {
 
 a.active {
   padding-bottom: 5px;
-  border-bottom: 2px solid $primaryColor;
+  border-bottom: 2px solid #d25ca1;
 }
 
 a.button.active {
   padding-bottom: 5px;
-  border-bottom: 4px solid $primaryColor;
+  border-bottom: 4px solid #d25ca1;
 }
 
 a:visited {
@@ -60,11 +58,11 @@ a:hover {
 }
 
 a.cta {
-  color: $primaryColor;
+  color: #d25ca1;
 }
 
 a.cta:visited {
-  color: $primaryColor;
+  color: #d25ca1;
 }
 
 a.cta:hover {
@@ -72,11 +70,11 @@ a.cta:hover {
 }
 
 a.cta {
-  color: $primaryColor;
+  color: #d25ca1;
 }
 
 a.cta:visited {
-  color: $primaryColor;
+  color: #d25ca1;
 }
 
 a.cta:hover {
@@ -125,7 +123,7 @@ button:hover {
 
 button.cta {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: $primaryColor;
+  background-color: #d25ca1;
   color: #ddd;
 }
 

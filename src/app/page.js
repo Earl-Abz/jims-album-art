@@ -1,4 +1,4 @@
-import styles from "./page.module.css";
+import styles from "./page.module.scss";
 
 const HomePage = () => {
   return (
@@ -16,7 +16,7 @@ const HomePage = () => {
         <div>
           <div>on <em>Custom</em> Album Designs</div>
         </div>
-        <button>Shop Now</button>
+        <button className="cta">Shop Now</button>
       </div>
       <span>
         Sample Image 3
